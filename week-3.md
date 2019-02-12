@@ -27,5 +27,6 @@ When the visitor comes to the space, he/she will see one IoT printer and a physi
 
 #### Research Focus
 * The story of auto-play
-* Default, cache, 
+* Default, cache, server
+* History of YouTube
 * YouTube meta information
