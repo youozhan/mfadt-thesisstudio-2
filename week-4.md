@@ -23,6 +23,9 @@ Definitions: digital ontologies; humans and data
 
 https://vimeo.com/129034586
 
+The Human Fabric of the Facebook Pyramid
+https://labs.rs/en/the-human-fabric-of-the-facebook-pyramid/
+
 #### Tools
 youtube-info
 
