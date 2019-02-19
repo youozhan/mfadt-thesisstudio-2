@@ -30,7 +30,7 @@ Feedack: The current form isn't interesting enough to raise the conversation
 
 Users were asked to go over the design of YouTube web version homepages starting from the year 2005. All screens were collected from web.archive.org. Most participants were able to point out the interface changes and aesthetic improvements. Nevertheless, only a few users noticed that Youtube has changed its design intention from encouraging a single user to upload videos, then developing a community for user-generated videos, to a platform for monetizing the video. On 2010, the “Recommended for you” section started to be prioritized. On 2011, the advertisement section takes the most important position out of all features. On below the advertisement, it is the trending videos with about 1 million views. The number of views is the most important factors to evaluate a YouTube video starting from the year of 2008. 
 
-Feedack: People provided quite a few insights from looking at the UI and intention changes
+Feedack: People provided quite a few insights from looking at the UI and intention changes.
 
 #### Proposal 1 vs. Proposal 2
 More people voted for the second proposal as it provides an overview and a better context. 
@@ -40,7 +40,9 @@ More people voted for the second proposal as it provides an overview and a bette
 
 #### Work Plan
 February 21st - Test the Google connection
+
 February 28th - Test the data visualization
+
 March 5th - Fix the receipt format
 
 #### Final Form
