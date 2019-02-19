@@ -15,7 +15,7 @@ Depending on how likely the visitor understands the topic.
 
 *What is the key information that will constitute the physical visualization?*
 
-- Economy, financial data
+- Economy, financial data, digital laor
 - Monetizing the video
 - Color correlating
 
@@ -24,9 +24,13 @@ Depending on how likely the visitor understands the topic.
 
 Autoplay is a setting exposed on the YouTube video page. By turning the setting on, YouTube will automatically play another related video based on the user’s viewing history. My journey of traversing about 48 videos started with “Drawing with Procreate on iPhone” and ended with “Apple Music - Florida Georgia Line + Memoji”. A nodejs npm module was being used to pull the meta information of all 48 videos for further analysis. There were multiple genres involved like “Howto & Style”, “Science & Technology” and “Entertainment”. The average length of the video is about 6 minutes. All videos have more than 10,000 views. There were more than half hours getting stuck with glass replacement videos, which is obviously based on one of the research I did for another project mainly about replacing phone screens. 
 
+Feedack: The current form isn't interesting enough to raise the conversation
+
 [The History of YouTube](Assets/HistoryOfYouTube.pdf)
 
 Users were asked to go over the design of YouTube web version homepages starting from the year 2005. All screens were collected from web.archive.org. Most participants were able to point out the interface changes and aesthetic improvements. Nevertheless, only a few users noticed that Youtube has changed its design intention from encouraging a single user to upload videos, then developing a community for user-generated videos, to a platform for monetizing the video. On 2010, the “Recommended for you” section started to be prioritized. On 2011, the advertisement section takes the most important position out of all features. On below the advertisement, it is the trending videos with about 1 million views. The number of views is the most important factors to evaluate a YouTube video starting from the year of 2008. 
+
+Feedack: People provided quite a few insights from looking at the UI and intention changes
 
 #### Proposal 1 vs. Proposal 2
 More people voted for the second proposal as it provides an overview and a better context. 
