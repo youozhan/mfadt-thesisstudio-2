@@ -32,7 +32,6 @@ Users were asked to go over the design of YouTube web version homepages starting
 More people voted for the second proposal as it provides an overview and a better context. 
 
 ![alt text](Assets/sketchai_01.png "Proposal 1")
-
 ![alt text](Assets/sketchai_02.png "Proposal 2")
 
 #### Work Plan
