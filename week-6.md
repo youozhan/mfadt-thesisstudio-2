@@ -1,5 +1,8 @@
-#### Google connection
+#### Connecting to Google
+https://myaccount.google.com/data-and-personalization 
 
+https://adssettings.google.com/authenticated?hl=en
+s
 #### Electronical shelf label
 https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-inky-phat 
 

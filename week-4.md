@@ -35,3 +35,24 @@ https://www.npmjs.com/package/youtube-info
 Ad Code examples for ads personalisation settings
 
 https://support.google.com/adsense/answer/9042142?hl=en-GB&ref_topic=7670012
+
+#### 1v1 Meeting
+Conceptual approach
+
+* Saying "This is who algorithms think you are?" Instead of “this how algorithms” gives you more breadth
+* Most people are aware of this info being used: watch history, personal info, gender, age, what your group is watching. Can you show the things people are less aware of?
+
+Trouble Area
+
+* Google account. . .not an open API
+* Will have to create a simulated process. Does this undermine the point you are trying to make?
+
+Possible approaches to gathering data
+* Make up your own questions. . .?
+* Can they swipe their credit card?
+
+Possible references
+
+* James Bridle - uses personal data to demonstrate how it functions
+* Stephanie Dinkins - works with AI
+* The Glass Room exhibition
