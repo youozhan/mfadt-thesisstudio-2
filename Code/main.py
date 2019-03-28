@@ -1,58 +1,42 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 
-import epd1in54b
+import epd2in13b
 import time
-import Image
-import ImageDraw
-import ImageFont
+from PIL import Image,ImageDraw,ImageFont
 import traceback
 
 try:
-    epd = epd1in54b.EPD()
+    epd = epd2in13b.EPD()
     epd.init()
+    print("Clear...")
     epd.Clear()
     
-    # Drawing on the image
-    blackimage = Image.new('1', (epd1in54b.EPD_WIDTH, epd1in54b.EPD_HEIGHT), 255)  # 255: clear the frame
-    redimage = Image.new('1', (epd1in54b.EPD_WIDTH, epd1in54b.EPD_HEIGHT), 255)  # 255: clear the frame
-    print "drawing"
-    drawblack = ImageDraw.Draw(blackimage)
-    drawred = ImageDraw.Draw(redimage)
-    font = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 24)
-    drawblack.rectangle((0, 10, 200, 34), fill = 0)
-    drawblack.text((8, 12), 'hello world', font = font, fill = 255)
-    drawblack.text((8, 36), 'e-Paper Demo', font = font, fill = 0)
-    drawblack.line((16, 60, 56, 60), fill = 0)
-    drawblack.line((56, 60, 56, 110), fill = 0)
-    drawblack.line((16, 110, 56, 110), fill = 0)
-    drawred.line((16, 110, 16, 60), fill = 0)
-    drawred.line((16, 60, 56, 110), fill = 0)
-    drawred.line((56, 60, 16, 110), fill = 0)
-    drawred.arc((90, 60, 150, 120), 0, 360, fill = 0)
-    drawred.rectangle((16, 130, 56, 180), fill = 0)
-    drawred.chord((90, 130, 150, 190), 0, 360, fill = 0)
-    epd.display(epd.getbuffer(blackimage),epd.getbuffer(redimage))
-    time.sleep(1)
- 
-    print "open pic"
-    blackimage = Image.open('1in54b-b.bmp')
-    redimage = Image.open('1in54b-r.bmp')    
-    epd.display(epd.getbuffer(blackimage),epd.getbuffer(redimage))
-    time.sleep(1)
+    print "Drawing"
+    # Drawing on the Horizontal image
+    HBlackimage = Image.new('1', (epd2in13b.EPD_HEIGHT, epd2in13b.EPD_WIDTH), 255)  # 298*126
+    HRedimage = Image.new('1', (epd2in13b.EPD_HEIGHT, epd2in13b.EPD_WIDTH), 255)  # 298*126    
     
-    print "show windows"
-    blackimage1 = Image.new('1', (epd1in54b.EPD_WIDTH, epd1in54b.EPD_HEIGHT), 255)  # 255: clear the frame
-    redimage2 = Image.new('1', (epd1in54b.EPD_WIDTH, epd1in54b.EPD_HEIGHT), 255)
+    drawblack = ImageDraw.Draw(HBlackimage)
+    # drawred = ImageDraw.Draw(HRedimage)
+    font18 = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 18)
+    font12 = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 12)
+    font10 = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', 10)
+    drawblack.text((10, 20), 'Multilevel Marketing:', font = font18, fill = 0)  
+    drawblack.text((10, 40), 'Last Week Tonight with John Oliver (HBO)', font = font12, fill = 0)
+    drawblack.text((10, 60), '16048551 views, 197418 likes', font = font10, fill = 0)
+    epd.display(epd.getbuffer(HBlackimage.rotate(180)), epd.getbuffer(HRedimage.rotate(180)))
+    # time.sleep(2)
     
-    newimage = Image.open('100x100.bmp')
-    blackimage1.paste(newimage, (50,50))    
-    epd.display(epd.getbuffer(blackimage1), epd.getbuffer(redimage2))
+    # print "read bmp file on window"
+    # blackimage1 = Image.new('1', (epd2in13b.EPD_HEIGHT, epd2in13b.EPD_WIDTH), 255)  # 298*126
+    # redimage1 = Image.new('1', (epd2in13b.EPD_HEIGHT, epd2in13b.EPD_WIDTH), 255)  # 298*126    
+    # newimage = Image.open('100x100.bmp')
+    # blackimage1.paste(newimage, (50,0))    
+    # epd.display(epd.getbuffer(blackimage1), epd.getbuffer(redimage1))
     
-    print "sleep"    
     epd.sleep()
         
-except Exception, e:
-    print 'traceback.format_exc():\n%s' % traceback.format_exc()
+except:
+    print('traceback.format_exc():\n%s',traceback.format_exc())
     exit()
-

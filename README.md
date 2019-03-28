@@ -8,5 +8,6 @@
 * [Week 6 post](week-6.md)
 * [Week 7 post](week-7.md)
 * [Week 8 post](week-8.md)
+* [Week 9 post](week-9.md)
 ## Links
 * [Thesis 1 process blog](https://github.com/youozhan/mfadt-thesisstudio-1)
