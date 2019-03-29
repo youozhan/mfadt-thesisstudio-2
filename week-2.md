@@ -36,7 +36,7 @@ Notes -
 * Breadcrumb
 * Consumer's labor, publisher's labor, like/dislike, comment
 * Digital exhibition, hashtag, social manipulation
-* Screen time, data point, colelction
+* Screen time, data point, collection
 
 
 
