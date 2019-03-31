@@ -3,8 +3,8 @@
 - [] Support checking purchase, channels in Chrome extension
 - [] Parse json files
 - [] Generate an electronic receipt
-- [] Check algotransparency code and see if it runs through a default account, can it run through different accout?
-- [] Check social-blade data npm and see what data comes back
+- [x] Check algotransparency code and see if it runs through a default account, can it run through different accout?
+- [x] Check social-blade data npm and see what data comes back
 - [] Decide which list (subscription) or video (history from last 7 days?) to be used for calculation
 - [] Calculate a value and store in it in a database
 - [] Rank all the value and profile and calculate a percentage
@@ -13,7 +13,6 @@
 - [] Think about sliding solution
 
 #### Pages 
-
 https://www.youtube.com/feed/purchases
 
 https://myaccount.google.com/data-and-personalization
@@ -25,6 +24,9 @@ Download your data / Search history (most searched keyword)
 https://www.youtube.com/feed/channels 
 
 #### Code resources
+chrome extension official guide
+https://developer.chrome.com/extensions/getstarted
+
 AlgoTransparency
 
 https://github.com/pnbt/youtube-explore
