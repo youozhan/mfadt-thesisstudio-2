@@ -1,6 +1,6 @@
 #### Goal of the week
 - [] Receipt design
-- [] Support checking purchase, channels in Chrome extension
+- [x] Support checking purchase, channels in Chrome extension
 - [] Parse json files
 - [] Generate an electronic receipt
 - [x] Check algotransparency code and see if it runs through a default account, can it run through different accout?
@@ -13,18 +13,19 @@
 - [] Think about sliding solution
 
 #### Pages 
-https://www.youtube.com/feed/purchases
+[x] https://www.youtube.com/feed/purchases
 
-https://myaccount.google.com/data-and-personalization
+[x] https://myaccount.google.com/data-and-personalization
 
-https://adssettings.google.com/authenticated?hl=en 
+[x] https://adssettings.google.com/authenticated?hl=en 
 
-Download your data / Search history (most searched keyword)
+[x] Download your data / Search history (most searched keyword)
 
-https://www.youtube.com/feed/channels 
+[x] https://www.youtube.com/feed/channels 
 
 #### Code resources
 chrome extension official guide
+
 https://developer.chrome.com/extensions/getstarted
 
 AlgoTransparency
