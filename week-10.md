@@ -1,4 +1,5 @@
 #### Goal of the week
+
 - [] Receipt design
 - [] Parse json files
 - [] Generate an electronic receipt
@@ -10,6 +11,7 @@
 - [] Think about sliding solution
 
 #### Code resources
+
 https://stackoverflow.com/questions/8915845/chrome-extension-open-a-link-from-popup-html-in-a-new-tab 
 
 https://vuejs.org/v2/guide/

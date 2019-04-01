@@ -1,4 +1,5 @@
 #### Goal of the week
+
 - [] Receipt design
 - [x] Support checking purchase, channels in Chrome extension
 - [] Parse json files
@@ -12,7 +13,8 @@
 - [] Test papirus display
 - [] Think about sliding solution
 
-#### Pages 
+#### Pages
+
 [x] https://www.youtube.com/feed/purchases
 
 [x] https://myaccount.google.com/data-and-personalization
@@ -24,6 +26,7 @@
 [x] https://www.youtube.com/feed/channels 
 
 #### Code resources
+
 chrome extension official guide
 
 https://developer.chrome.com/extensions/getstarted
@@ -51,6 +54,7 @@ https://github.com/horans/youtube-revenue-calculator
 https://horans.github.io/youtube-revenue-calculator/iframe.html?channel=0&desc=1&link=1&rpm=0&highlight=0&note=1&detail=0
 
 #### Installation setup
+
 MOVEABLE TYPE 
 
 https://www.nytimes.com/2007/10/25/arts/design/25vide.html
