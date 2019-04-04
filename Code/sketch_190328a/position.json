@@ -1,0 +1,63 @@
+{
+    "planets": [{
+            "position": {
+                "x": -273,
+                "y": 71
+            },
+            "diameter": 32,
+            "orbitspeed": 0.003,
+            "mooncount": 1,
+            "moondistance": 36,
+            "moondiameter": 12,
+            "label": "anonymous74509"
+        },
+        {
+            "position": {
+                "x": 172,
+                "y": -97
+            },
+            "diameter": 32,
+            "orbitspeed": -0.006,
+            "mooncount": 1,
+            "moondistance": 36,
+            "moondiameter": 12,
+            "label": "anonymous85522"
+        },
+        {
+            "position": {
+                "x": -184,
+                "y": 178
+            },
+            "diameter": 32,
+            "orbitspeed": 0.003,
+            "mooncount": 1,
+            "moondistance": 36,
+            "moondiameter": 12,
+            "label": "anonymous44749"
+        },
+        {
+            "position": {
+                "x": 298,
+                "y": -493
+            },
+            "diameter": 32,
+            "orbitspeed": -0.001,
+            "mooncount": 1,
+            "moondistance": 36,
+            "moondiameter": 12,
+            "label": "anonymous82768"
+        },
+        {
+            "position": {
+                "x": -40,
+                "y": 138
+            },
+            "diameter": 32,
+            "orbitspeed": 0.003,
+            "mooncount": 1,
+            "moondistance": 36,
+            "moondiameter": 12,
+            "label": "anonymous73564"
+        }
+    ]
+}
