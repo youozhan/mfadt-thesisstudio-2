@@ -18,10 +18,10 @@ class Moon {
     //theta -= 0.012;
   }
   
-  void display(){
+  void display(float index){
     pushMatrix();
     rotate(theta);
-    translate(distance, 0);
+    translate(distance*cos(PI/3*index), distance*sin(PI/3*index));
     fill(moonColor);
     ellipse(0, 0, diameter, diameter);
     popMatrix();

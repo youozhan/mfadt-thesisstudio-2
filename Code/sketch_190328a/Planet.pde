@@ -44,7 +44,6 @@ class Planet {
   }
 
   void display() {
-
     pushMatrix();
     rotate(theta);
     translate(positionx, positiony);
@@ -57,20 +56,14 @@ class Planet {
     text(label, 0, 0);
 
     //moon();
-    for (Moon m : moons) {
-      //m.update();
-      m.display();
-    }
+    //for (Moon m : moons) {
+    //  m.display();
+    //}
 
+    for (int i=0; i<moons.length; i++){
+      moons[i].display(i);
+    }
+    
     popMatrix();
   }
-
-  //void moon() {
-  //  pushMatrix();
-  //  rotate(-theta*4);
-  //  translate(mDistance, 0);
-  //  fill(planetColor);
-  //  ellipse(0, 0, mDiameter, mDiameter);
-  //  popMatrix();
-  //}
 }

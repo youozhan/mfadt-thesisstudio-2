@@ -15,9 +15,6 @@ void setup() {
   f = loadFont("Courier-24.vlw");
   loadData();
   
-  //for (int i=0; i<planets.length; i++){
-  //  planets[i] = new Planet(random(-300, 300), random(-300, 300), 32.0, theta*random(1, 3), random(0.005, 0.01), 36.0, 12.0);
-  //}
 }
 
 void draw() {
@@ -61,14 +58,12 @@ void loadData(){
     float diameter = planet.getFloat("diameter");
     float orbitspeed = planet.getFloat("orbitspeed");
     int mooncount = planet.getInt("mooncount");
-    //float moondistance = planet.getFloat("moondistance");
-    //float moondiameter = planet.getFloat("moondiameter");
     
     float[] moondistance = new float[mooncount];
     float[] moondiameter = new float[mooncount];
     
     for (int j=0; j<mooncount; j++){
-      moondistance[j] = 24 + 12*j;
+      moondistance[j] = 24 + 3*j;
       moondiameter[j] = 6;
     }
     
@@ -83,14 +78,10 @@ void circularSystem() {
   ellipse(0, 0, 64, 64);
   stroke(255, 40);
   noFill();
-  //fibonacci(34);
-  //fibonacci(89);
   fibonacci(144);
   fibonacci(377);
   fibonacci(610);
   fibonacci(987);
-  //fibonacci(1597);
-  //fibonacci(2584);
 }
 
 void fibonacci(int rad) {
