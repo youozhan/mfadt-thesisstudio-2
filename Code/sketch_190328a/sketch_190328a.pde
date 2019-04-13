@@ -10,6 +10,7 @@ PFont f;
 
 void setup() {
   fullScreen();
+  //size(800, 600);
   
   f = loadFont("Courier-24.vlw");
   loadData();
@@ -22,12 +23,18 @@ void setup() {
 void draw() {
   background(bgcolor);
   noStroke();
+  
+  textFont(f,22);
+  fill(255);
+  text("Hidden Space", 70, height-80);
+  textFont(f,16);
+  text("Simulating The Solar System of Watching Videos", 70, height-60);
 
   // Translate to center of window to draw the sun.
   translate(width/2, height/2);
   
   textFont(f,14);
-  fill(255);
+  //fill(255);
   text("Ad Revenue", -42, -12);
   textFont(f,18);
   text("$20.4 billion (2018)", -104, 12);
@@ -40,7 +47,7 @@ void draw() {
 }
 
 void loadData(){
-  json = loadJSONObject("position.json");
+  json = loadJSONObject("data.json");
   JSONArray planetData = json.getJSONArray("planets");
   
   planets = new Planet[planetData.size()];
@@ -54,12 +61,20 @@ void loadData(){
     float diameter = planet.getFloat("diameter");
     float orbitspeed = planet.getFloat("orbitspeed");
     int mooncount = planet.getInt("mooncount");
-    float moondistance = planet.getFloat("moondistance");
-    float moondiameter = planet.getFloat("moondiameter");
+    //float moondistance = planet.getFloat("moondistance");
+    //float moondiameter = planet.getFloat("moondiameter");
+    
+    float[] moondistance = new float[mooncount];
+    float[] moondiameter = new float[mooncount];
+    
+    for (int j=0; j<mooncount; j++){
+      moondistance[j] = 24 + 12*j;
+      moondiameter[j] = 6;
+    }
     
     String label = planet.getString("label");
     
-    planets[i] = new Planet(x, y, diameter, 0, orbitspeed, moondistance, moondiameter, label);
+    planets[i] = new Planet(x, y, diameter, 0, orbitspeed, mooncount, moondistance, moondiameter, label);
   }
 }
 

@@ -6,7 +6,7 @@
             },
             "diameter": 32,
             "orbitspeed": 0.003,
-            "mooncount": 1,
+            "mooncount": 2,
             "moondistance": 36,
             "moondiameter": 12,
             "label": "anonymous74509"
@@ -18,7 +18,7 @@
             },
             "diameter": 32,
             "orbitspeed": -0.006,
-            "mooncount": 1,
+            "mooncount": 2,
             "moondistance": 36,
             "moondiameter": 12,
             "label": "anonymous85522"
@@ -30,15 +30,15 @@
             },
             "diameter": 32,
             "orbitspeed": 0.003,
-            "mooncount": 1,
+            "mooncount": 3,
             "moondistance": 36,
             "moondiameter": 12,
             "label": "anonymous44749"
         },
         {
             "position": {
-                "x": 298,
-                "y": -493
+                "x": 259,
+                "y": -429
             },
             "diameter": 32,
             "orbitspeed": -0.001,
