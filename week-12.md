@@ -19,9 +19,9 @@ Reflection on the feedback:
 * How to better emphasize the fact that "algorithm has its own intention and it is not about teaching us stuff"?
 * Show some "gesture"
 
-
 Must-dos in the following week:
 * Uploading UI
 * Polish the visual (consider alternate visualization structure in addition to the solar system)
 * Finalize the documentation
 * Brochure design (for the audience to continue looking at the project at home)
+* Confirm the details - size, setup, demo account, wifi connection
