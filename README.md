@@ -12,5 +12,6 @@
 * [Week 10 post](week-10.md)
 * [Week 11 post](week-11.md)
 * [Week 12 post](week-12.md)
+* [Week 14 post](week-14.md)
 ## Links
 * [Thesis 1 process blog](https://github.com/youozhan/mfadt-thesisstudio-1)

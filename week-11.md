@@ -20,6 +20,7 @@
 - [] Move the processing to D3/p5.js
 
 #### Issues to be reviewed
+
 - [x] New tab will pop out when start over
 - [] Fix the small icon visual
 - [] Fix the checkbox ux prolem
